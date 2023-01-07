@@ -42,12 +42,70 @@ header {
     background-color: #F15B22;
     color: #FFFFFF;
     border: 0;
-    margin-left: 1365px;
+    margin-left: 1342px;
     margin-top: 32px;
-    
+
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     text-align: center;
-    
+
+}
+
+/* failures section */
+.failures {
+    display: flex;
+}
+
+.failures-img {
+    width: 569px;
+    height: 723.3px;
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.failures-details {
+    width: 466px;
+    height: 700px;
+    margin: auto;
+    padding-right: 250px;
+    text-align: left;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 200px;
+
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-top: 24px;
+}
+
+ul {
+    list-style: none;
+    padding-top: 16px;
+    padding-left: 0;
+}
+
+ul li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-top: 10px;
+}
+
+
+ul li:before {
+    content: '✓';
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+    padding-right: 8px;
+
 }
