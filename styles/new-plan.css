@@ -65,7 +65,7 @@ header {
 }
 
 .failures-details {
-    width: 466px;
+    width: 400px;
     height: 700px;
     margin: auto;
     padding-right: 250px;
@@ -74,7 +74,7 @@ header {
 
 .failures-title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     color: #151414;
     padding-top: 200px;
 
@@ -82,7 +82,7 @@ header {
 
 .failures-description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 21px;
     color: #444343;
     padding-top: 24px;
 }
@@ -95,7 +95,7 @@ ul {
 
 ul li {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 21px;
     color: #444343;
     padding-top: 10px;
 }
@@ -183,4 +183,92 @@ ul li:before {
     font-size: 20px;
     text-align: center;
     color: #F15B22;
+}
+
+/* footer section */
+.footer {
+    background: #151414;
+    width: 100%;
+    display: flex;
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+
+.future-container {
+    width: 485px;
+    height: 317px;
+    padding-top: 130px;
+    padding-left: 230px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+
+
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.email {
+    height: 26px;
+    left: 230px;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+.phone {
+    height: 26px;
+    left: 230px;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.footer-icons img {
+    padding-right: 13px;
+
+}
+
+.subscribe-container {
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+    margin-left: 400px;
+}
+
+.subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email-box {
+    width: 325px;
+    height: 64px;
+    margin-top: 31.5px;
+    background: #151414;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    height: 64px;
+    padding: 20px 36px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 16px;
 }
