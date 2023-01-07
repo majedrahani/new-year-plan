@@ -109,3 +109,40 @@ ul li:before {
     padding-right: 8px;
 
 }
+
+/* plan section style */
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 130px;
+
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    gap: 140px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plan-name {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-commitment {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 18px;
+}
